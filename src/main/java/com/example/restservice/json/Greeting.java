@@ -1,7 +1,10 @@
 package com.example.restservice.json;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Objects;
 
+@Component
 public class Greeting {
     private String message;
 

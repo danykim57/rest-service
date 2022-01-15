@@ -30,4 +30,5 @@ public class HelloControllerFunctionalTest {
         Greeting response = template.getForObject("/rest?name=Dan", Greeting.class);
         assertEquals("Hello, Dan!", response.getMessage());
     }
+
 }
